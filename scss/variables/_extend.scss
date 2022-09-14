@@ -1,0 +1,13 @@
+@mixin estiloTitulo ($size){
+    font-family: $kaushan;
+    font-size: $size;
+    color: $ruby;
+    text-align: center;
+    font-weight: bold;
+}
+
+%btnProducto{
+    border-radius: 6px;
+    background-color: $ruby;
+    
+}
